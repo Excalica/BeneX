@@ -39,6 +39,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicTacToeForms", "TicTacToe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UmwandlerForms", "UmwandlerForms\UmwandlerForms.csproj", "{E914490A-251D-4878-BECD-0AD4267B7DE1}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MySQLLogin", "MySQLLogin\MySQLLogin.csproj", "{9BC512E3-E677-4CA5-8654-4DEF260B43A7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -191,6 +193,14 @@ Global
 		{E914490A-251D-4878-BECD-0AD4267B7DE1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E914490A-251D-4878-BECD-0AD4267B7DE1}.Release|x86.ActiveCfg = Release|Any CPU
 		{E914490A-251D-4878-BECD-0AD4267B7DE1}.Release|x86.Build.0 = Release|Any CPU
+		{9BC512E3-E677-4CA5-8654-4DEF260B43A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BC512E3-E677-4CA5-8654-4DEF260B43A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BC512E3-E677-4CA5-8654-4DEF260B43A7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9BC512E3-E677-4CA5-8654-4DEF260B43A7}.Debug|x86.Build.0 = Debug|Any CPU
+		{9BC512E3-E677-4CA5-8654-4DEF260B43A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BC512E3-E677-4CA5-8654-4DEF260B43A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BC512E3-E677-4CA5-8654-4DEF260B43A7}.Release|x86.ActiveCfg = Release|Any CPU
+		{9BC512E3-E677-4CA5-8654-4DEF260B43A7}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

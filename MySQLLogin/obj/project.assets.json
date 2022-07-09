@@ -859,11 +859,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Anwendungsentwicklung\\Anwendungsentwicklung-Lernen\\MySQLLogin\\MySQLLogin.csproj",
+      "projectUniqueName": "C:\\Users\\Benex\\Desktop\\Portofolio\\MySQLLogin\\MySQLLogin.csproj",
       "projectName": "MySQLLogin",
-      "projectPath": "D:\\Anwendungsentwicklung\\Anwendungsentwicklung-Lernen\\MySQLLogin\\MySQLLogin.csproj",
+      "projectPath": "C:\\Users\\Benex\\Desktop\\Portofolio\\MySQLLogin\\MySQLLogin.csproj",
       "packagesPath": "C:\\Users\\Benex\\.nuget\\packages\\",
-      "outputPath": "D:\\Anwendungsentwicklung\\Anwendungsentwicklung-Lernen\\MySQLLogin\\obj\\",
+      "outputPath": "C:\\Users\\Benex\\Desktop\\Portofolio\\MySQLLogin\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

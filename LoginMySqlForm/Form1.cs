@@ -7,7 +7,6 @@ namespace LoginMySqlForm
         public Form1()
         {
             InitializeComponent();
-            sql = new MySql();
             label1.Text = String.Empty;
         }
 
@@ -25,18 +24,20 @@ namespace LoginMySqlForm
             if(tBox_Username.Text != "" && tBox_Password.Text != "")
             {
                 string p = SHA256Generator.Compute256(tBox_Password.Text);
-                sql.sqlRead($"select * from Personal where username = '{tBox_Username.Text}' and password = '{p}';");
-                //sql.sqlRead($"select * from Personal where username = 'Java' and password = 'bcb15f821479b4d5772bd0ca866c00ad5f926e3580720659cc80d39c9d09802a';");
-                if(sql.FoundUsers)
+                sql = new MySql(tBox_Username.Text, p, "localhost", "3306", "Datenbank die nicht mehr existiert");
+                if(sql.IsLoginOk)
                 {
-                    MessageBox.Show($"Welcome {sql.Person.Firstname} {sql.Person.Lastname}");
+                    sql.sqlRead($"select * from Personal where username = '{tBox_Username.Text}' and password = '{p}';");
+                    //sql.sqlRead($"select * from Personal where username = 'Java' and password = 'bcb15f821479b4d5772bd0ca866c00ad5f926e3580720659cc80d39c9d09802a';");
+                    if(sql.FoundUsers)
+                    {
+                        MessageBox.Show($"Welcome {sql.Person.Firstname} {sql.Person.Lastname}");
+                    }
+                    else
+                    {
+                        label1.Text = "Username or Password false";
+                    }
                 }
-                else
-                {
-                    label1.Text = "Username or Password false";
-                }
-
-
             }
             else
             {

@@ -12,7 +12,7 @@ namespace Geldautomat_Console_SQL
         MySqlConnection con;
         MySqlDataReader reader;
         MySqlCommand cmd;
-        string loginDB = @"Data Source = localhost; Port = 3306; Initial Catalog = Geldautomat; User Id = root; Password = dragoonstorm1983;";
+        string loginDB = @"Data Source = localhost; Port = 3306; Initial Catalog = Geldautomat; User Id = root; Password = 111111;";
         public Kunde kunde;
         public bool isloginOk;
 

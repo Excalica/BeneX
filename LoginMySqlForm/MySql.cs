@@ -13,21 +13,36 @@ namespace LoginMySqlForm
         private bool isLoginOk;
         private bool foundUsers;
 
-        public bool FoundUsers { get { return foundUsers;} set { foundUsers = value; } }
+        private string username;
+        private string password;
+        private string dataSource;
+        private string port;
+        private string database;
+
+        public bool FoundUsers { get { return foundUsers; } set { foundUsers = value; } }
+        public bool IsLoginOk { get => isLoginOk; set => isLoginOk = value; }
         public Personal Person { get { return person; } set { person = value; } }
 
-
+        Personal person;
         MySqlConnection con;
         MySqlDataReader reader;
         MySqlCommand cmd;
 
-        Personal person;
+        public MySql(string _username, string _password, string _dataSource, string _port, string _database)
+        {
+            username = _username;
+            password = _password;
+            dataSource = _dataSource;
+            port = _port;
+            database = _database;
+        }
+
 
         bool sqlConnection(string sql)
         {
             try
             {
-                string connection = (@"Data Source = localhost; Port = 3306 ; Initial Catalog = PersonalManagment; User Id = Java; Password = 111111;");
+                string connection = (@$"Data Source = {dataSource}; Port = {port} ; Initial Catalog = {database}; User Id = {username}; Password = {password};");
 
                 con = new MySqlConnection(connection);
 
@@ -57,7 +72,7 @@ namespace LoginMySqlForm
                 reader = cmd.ExecuteReader();
                 if (reader.HasRows)
                 {
-                    
+
                     while (reader.Read())
                     {
                         person = new Personal
@@ -83,6 +98,6 @@ namespace LoginMySqlForm
             }
         }
 
-        
+
     }
 }

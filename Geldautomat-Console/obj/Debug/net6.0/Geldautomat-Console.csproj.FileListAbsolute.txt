@@ -28,3 +28,18 @@ D:\Neuer Ordner\Anwendungsentwicklung\Anwendungsentwicklung-Lernen\Geldautomat-C
 D:\Neuer Ordner\Anwendungsentwicklung\Anwendungsentwicklung-Lernen\Geldautomat-Console\obj\Debug\net6.0\Geldautomat-Console.pdb
 D:\Neuer Ordner\Anwendungsentwicklung\Anwendungsentwicklung-Lernen\Geldautomat-Console\obj\Debug\net6.0\Geldautomat-Console.genruntimeconfig.cache
 D:\Neuer Ordner\Anwendungsentwicklung\Anwendungsentwicklung-Lernen\Geldautomat-Console\obj\Debug\net6.0\refint\Geldautomat-Console.dll
+C:\Users\Benex\Desktop\Portofolio\Geldautomat-Console\bin\Debug\net6.0\Geldautomat-Console.exe
+C:\Users\Benex\Desktop\Portofolio\Geldautomat-Console\bin\Debug\net6.0\Geldautomat-Console.deps.json
+C:\Users\Benex\Desktop\Portofolio\Geldautomat-Console\bin\Debug\net6.0\Geldautomat-Console.runtimeconfig.json
+C:\Users\Benex\Desktop\Portofolio\Geldautomat-Console\bin\Debug\net6.0\Geldautomat-Console.dll
+C:\Users\Benex\Desktop\Portofolio\Geldautomat-Console\bin\Debug\net6.0\Geldautomat-Console.pdb
+C:\Users\Benex\Desktop\Portofolio\Geldautomat-Console\obj\Debug\net6.0\Geldautomat-Console.csproj.AssemblyReference.cache
+C:\Users\Benex\Desktop\Portofolio\Geldautomat-Console\obj\Debug\net6.0\Geldautomat-Console.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Benex\Desktop\Portofolio\Geldautomat-Console\obj\Debug\net6.0\Geldautomat-Console.AssemblyInfoInputs.cache
+C:\Users\Benex\Desktop\Portofolio\Geldautomat-Console\obj\Debug\net6.0\Geldautomat-Console.AssemblyInfo.cs
+C:\Users\Benex\Desktop\Portofolio\Geldautomat-Console\obj\Debug\net6.0\Geldautomat-Console.csproj.CoreCompileInputs.cache
+C:\Users\Benex\Desktop\Portofolio\Geldautomat-Console\obj\Debug\net6.0\Geldautomat-Console.dll
+C:\Users\Benex\Desktop\Portofolio\Geldautomat-Console\obj\Debug\net6.0\refint\Geldautomat-Console.dll
+C:\Users\Benex\Desktop\Portofolio\Geldautomat-Console\obj\Debug\net6.0\Geldautomat-Console.pdb
+C:\Users\Benex\Desktop\Portofolio\Geldautomat-Console\obj\Debug\net6.0\Geldautomat-Console.genruntimeconfig.cache
+C:\Users\Benex\Desktop\Portofolio\Geldautomat-Console\obj\Debug\net6.0\ref\Geldautomat-Console.dll
