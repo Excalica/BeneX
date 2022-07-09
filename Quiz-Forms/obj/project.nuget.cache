@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "dau5V+8bP9vlKDhupSvn+Q2hIkG/NLcBdhNRcSPHWqPDL/AC8XiWqYXz3Ljfe26DBQJO1biUah7MbnL9oFudkA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Benex\\Desktop\\Portofolio\\Quiz-Forms\\Quiz-Forms.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Benex\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
