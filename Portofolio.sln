@@ -41,6 +41,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UmwandlerForms", "Umwandler
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MySQLLogin", "MySQLLogin\MySQLLogin.csproj", "{9BC512E3-E677-4CA5-8654-4DEF260B43A7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unicode Escape Sequence Converter Console", "Unicode Escape Sequence Converter Console\Unicode Escape Sequence Converter Console.csproj", "{1D0C5A5A-7CA0-4DCB-9DD4-D5BA38C08415}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -201,6 +203,14 @@ Global
 		{9BC512E3-E677-4CA5-8654-4DEF260B43A7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9BC512E3-E677-4CA5-8654-4DEF260B43A7}.Release|x86.ActiveCfg = Release|Any CPU
 		{9BC512E3-E677-4CA5-8654-4DEF260B43A7}.Release|x86.Build.0 = Release|Any CPU
+		{1D0C5A5A-7CA0-4DCB-9DD4-D5BA38C08415}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D0C5A5A-7CA0-4DCB-9DD4-D5BA38C08415}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D0C5A5A-7CA0-4DCB-9DD4-D5BA38C08415}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1D0C5A5A-7CA0-4DCB-9DD4-D5BA38C08415}.Debug|x86.Build.0 = Debug|Any CPU
+		{1D0C5A5A-7CA0-4DCB-9DD4-D5BA38C08415}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D0C5A5A-7CA0-4DCB-9DD4-D5BA38C08415}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D0C5A5A-7CA0-4DCB-9DD4-D5BA38C08415}.Release|x86.ActiveCfg = Release|Any CPU
+		{1D0C5A5A-7CA0-4DCB-9DD4-D5BA38C08415}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
